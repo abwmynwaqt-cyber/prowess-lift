@@ -1,0 +1,160 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+font-family:Arial, Helvetica, sans-serif;}
+#mainHeader{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:20px 10%;
+position:fixed;
+width: 100%;
+background-color:#ffffff ;
+}
+#mainHeader a{
+text-decoration:none;
+text-transform: uppercase;
+}
+#mainHeader h1{
+color: #000000;
+}
+.panalList a{
+transition: 0.3s;
+color: rgba(0, 0, 0, 0.5);
+font-weight: 700;
+}
+.panalList a:hover,
+.panalList a.active {
+color: #1dc55d;
+}
+.panalList ul{
+display: flex;
+gap: 18px;
+font-size: 15px;
+list-style: none;
+
+}
+#Workout{
+height:820px;
+max-width:100%;
+background-image:linear-gradient(rgba(0, 0 ,0 ,0.5),rgba(0 , 0 , 0, 0.5)) , url(../img/banner.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+margin-top:25px;
+display:grid;
+ grid-template-columns:2fr 1fr;
+align-items:center;
+padding:0 10%;
+
+}
+.videos{
+color: rgb(252, 255, 255);
+text-align: left;
+}
+.videos h2{
+max-width: 100%;
+width: 500px;
+font-size: 45px;
+}
+.videos p{
+position: relative;
+top: 22px;
+font-size:18px;
+}
+.videos a{
+position: relative;
+top: 85px;
+color: #ffff;
+text-decoration: none;
+border-radius: 6px;
+font-size: 17px;
+font-weight:bold ;
+}
+.videos .get{
+background-color: #ffff;
+padding: 20px 40px;
+color: #05b281;
+transition: 0.3s;
+
+}
+.videos .get:hover{
+    color: #000000;
+}
+.videos .Read{
+background-color: #05b281;
+margin-left: 30px;
+padding: 20px 40px;
+transition: 0.5s;
+}
+.videos .Read:hover{
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.1);
+}
+.form{
+ color: #000000;
+background-color: #ffff;
+ padding: 40px;
+ width: 100%;
+border-radius: 8px;
+margin-top: 15px;
+height: auto;
+    
+}
+
+.form input:not([type="checkbox"]){
+ width: 100%;
+ padding: 18px;
+}
+.form input{
+margin-top: 20px;
+ border-radius: 6px;
+ border: 1px solid #ddd;
+ font-size: 15px;
+
+}
+#strengthText{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.form .che{
+    width: 18px;
+    height: 18px;
+    transition: 0.3s;
+}
+.form .che:hover{
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+}
+.form label{
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 3px;
+    left: 6px;
+}
+.form a{
+    text-decoration: none;
+    color: rgba(0, 0,0, 0.6);
+    margin-left: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.form a:hover{
+    color: #000000;
+
+}
+.form button{
+    margin-top:20px ;
+    width: 100%;
+    padding: 18px 0;
+    color: #ffff;
+    background-color: #05b281;
+    border-style: none;
+    font-weight: 700;
+    border-radius: 6px;
+ transition: 0.3s;
+}
+.form button:hover{
+    box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.1);
+}
